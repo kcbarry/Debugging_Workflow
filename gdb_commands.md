@@ -15,8 +15,8 @@ When the program stops, there are a couple commands that might be helpful.
 + `print VARIABLE_NAME` will print the value of a given variable name. This can be used to see what value is incorrect and is usually a good point to start looking for bugs.
 
 It is also useful to stop the execution of your program at an arbritary point. This can be accomplished by setting breakpoints. To set a breakpoint, use the `break` command. The break requires a line number to be specified, and if there are multiple source files, you must specify that too. For example:
-+ `break 10`
-+ `break sourcefile.cpp:10`
++ `break LINE_NUMBER`
++ `break sourcefile.cpp:LINE_NUMBER`
 
 Once you hit a breakpoint, you can use the `print` and `backtrace` commands. To proceed with program execution, there are two commands you can use.
 + `continue` or `c` to run the program until it encounters the next breakpoint or the end of execution.
