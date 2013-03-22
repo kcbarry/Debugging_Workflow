@@ -1,4 +1,5 @@
 GDB Workflow
+=============
 
 To compile a program with debugger symbols, use the -g flag when you compile. For programs with a Makefile, we'll include it for you.
 
@@ -21,7 +22,8 @@ Once you hit a breakpoint, you can use the `print` and `backtrace` commands. To 
 + `continue` or `c` to run the program until it encounters the next breakpoint or the end of execution.
 + `step` or `s` to step through the the program line by line.
 
-To delete a breakpoint:
+To delete a breakpoint
 `delete BREAKPOINT_NUMBER`
+
 To list all breakpoints
 `info breakpoints`
