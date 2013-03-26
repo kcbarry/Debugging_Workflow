@@ -59,4 +59,4 @@ Before you submit an issue, demonstrate that you have attempted to solve the pro
 
 + The line number where the error is occuring.
 + The steps you have taken to diagnose the problem. This is particularly important because it gives the staff a starting point when examining the issue. 
-+ The point where you believe the error is, and why you don't understand what is happening.
++ The point where you believe the error is, and what you don't understand.
