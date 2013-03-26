@@ -53,3 +53,9 @@ Infinite Loops
 		+ Your `for` loop is changing the value of the iteration variable (e.g. `i` in `for(int i=0;...;...)` is being changed inside the loop erroneously)
 	+ Once you've pinpointed the problem loop, use `gdb` to inspect the value of the terminal conditions on each iteration, and make sure it's what you expect.
 
+Submitting an Issue
+---------
+Before you submit an issue, demonstrate that you have attempted to solve the problem yourself. This means when you create an issue you should supply:
+    + The line number where the error is occuring.
+    + The steps you have taken to diagnose the problem. This is particularly important because it gives the staff a starting point when examining the issue. 
+    + The point where you believe the error is, and why you don't understand what is happening.
