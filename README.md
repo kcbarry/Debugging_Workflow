@@ -64,7 +64,7 @@ If you get stuck and have tried everything you can think of to fix a problem, yo
   - **Label**: PAx or Labxx
   - **Assigned to**: @TeachingStaff
   - **Write** (issue body): you state:
-    + A link to the file/files/commit where your issue is happening (**code must be pushed for this to work**)
+    + A link to the file/files/commit where your issue is happening ( **code must be pushed for this to work** )
     + The line number(s) where you think the problem is
     + The steps you have taken to diagnose the problem. This is particularly important because it gives the staff a starting point when examining the issue. 
     + A description of what you think the problem is, _in English_, and what you don't understand or can't figure out about it.
