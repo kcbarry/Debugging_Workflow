@@ -2,7 +2,7 @@ CS 102 C++ Debugging Workflow
 ====================
 If you run into common trouble in your PAs or labs, give these strategies a try before you ask for help on a GitHub issue.
 
-If you use this guide and still can't figure out what's wrong, you can ask for help. However, we want to see you've tried to figure it out first yourself, so please show how you've tried to:
+If you use this guide and still can't figure out what's wrong, you can ask for help ([see below](#submitting-an-issue-to-ask-for-help)). However, we want to see you've tried to figure it out first yourself, so please show how you've tried to:
 
 + **Understand the issue**
 + **Find where the error is happening**
@@ -10,7 +10,6 @@ If you use this guide and still can't figure out what's wrong, you can ask for h
 	
 	
 These steps are outlined below for a variety of common C++ programming issues.
-
 
 
 Segmentation Faults
@@ -53,10 +52,19 @@ Infinite Loops
 		+ Your `for` loop is changing the value of the iteration variable (e.g. `i` in `for(int i=0;...;...)` is being changed inside the loop erroneously)
 	+ Once you've pinpointed the problem loop, use `gdb` to inspect the value of the terminal conditions on each iteration, and make sure it's what you expect.
 
-Submitting an Issue
----------
-Before you submit an issue, demonstrate that you have attempted to solve the problem yourself. This means when you create an issue you should supply:
 
-+ The line number where the error is occuring.
-+ The steps you have taken to diagnose the problem. This is particularly important because it gives the staff a starting point when examining the issue. 
-+ The point where you believe the error is, and what you don't understand.
+
+Submitting an issue to ask for help
+------------
+If you get stuck and have tried everything you can think of to fix a problem, you can come to us to get a push in the right direction. Since you've run into a debugging issue, you must ask for help on your private repository. The public repositories are only useful for general questions.
+
+**Before you submit an issue, you _must_ demonstrate that you have attempted to solve the problem yourself.** You can easily do this by providing the following information, in this **required** format:
+
+  - **Title**: _some descriptive title about your problem_
+  - **Label**: PAx or Labxx
+  - **Assigned to**: @TeachingStaff
+  - **Write** (issue body): you state:
+    + A link to the file/files/commit where your issue is happening (**code must be pushed for this to work**)
+    + The line number(s) where you think the problem is
+    + The steps you have taken to diagnose the problem. This is particularly important because it gives the staff a starting point when examining the issue. 
+    + A description of what you think the problem is, _in English_, and what you don't understand or can't figure out about it.
